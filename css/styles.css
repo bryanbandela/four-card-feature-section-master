@@ -1,0 +1,99 @@
+/* For mobile first */
+body {
+  background-color: #e7ebf4;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins 700", sans-serif;
+}
+
+img {
+  position: relative;
+  left: 13rem;
+  top: 1rem;
+}
+
+.heading-paragraph {
+  padding-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.sub-heading {
+  margin-bottom: 4rem;
+  font-family: "Poppins", sans-serif;
+  margin: auto 10%;
+}
+
+.mb-3 {
+  position: relative;
+  text-align: left;
+  margin: 2rem auto;
+  border-top: 0.2rem solid;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #fff;
+  max-width: 22rem;
+  height: 15rem;
+}
+
+.card-red {
+  border-top-color: red;
+}
+
+.card-cyan {
+  border-top-color: cyan;
+}
+
+.card-blue {
+  border-top-color: blue;
+}
+
+.card-orange {
+  border-top-color: orange;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* For desktop */
+
+@media (min-width: 1280px) {
+  .sub-heading {
+    margin: auto 30%;
+  }
+
+  .card-red {
+    position: relative;
+    bottom: 15rem;
+  }
+
+  .card-cyan {
+    position: relative;
+    right: 28%;
+    top: 10rem;
+  }
+
+  .card-blue {
+    position: relative;
+    left: 28%;
+    bottom: 41rem;
+  }
+
+  .card-orange {
+    position: relative;
+    bottom: 16rem;
+  }
+}
